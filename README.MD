@@ -3,10 +3,11 @@
 ##Linear Regression to Predict MPG 
 The goal of this analysis is to design linear model that predicts the mpg of MechaCar prototypes using several variable. The dataset collected on each car are 
 vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance. First, the file that included the data was imported and read in as a dataframe. 
-Then the `lm()` function is used to perform the multiple linear regression. In the `lm()` function all variables are passed in like so `lm(mpg ,.,). Then we perform 
-a summary with the `summary()' funtion, to determine the p-value and r-squared value. 
+Then the `lm()` function is used to perform the multiple linear regression. In the `lm()` function all variables are passed in like so `lm(mpg ,.,)`. Then we perform 
+a summary with the `summary()` function, to determine the p-value and r-squared value. 
 
 Results:
+
 ![lm_summary.PNG](/resources/lm_summary.PNG)
 
 The drivetrain, spoiler angle, and vehicle weight are the variables which provided a non-random amount of variance to the mpg values in the dataset.
@@ -21,12 +22,14 @@ The design specification for the MechaCar suspension coils is a variance that do
 The current manufacturing data meets this specification in total as the variance is equal to 62.29356. 
 
 Total Summary:
+
 ![total_summary.PNG](/resources/total_summary.PNG)
 
 The manufacturing data does not meet the specification of 100 PSI when looking at the total of each lot individually. This is
 because the variance of lot 3 is equal to 170.2861224.
 
 Lot Summary:
+
 ![lot_summary.PNG](/resources/lot_summary.PNG)
 
 ##T-Tests on Suspension Coils
